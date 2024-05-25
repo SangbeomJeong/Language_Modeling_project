@@ -50,7 +50,7 @@ Testing Accuracy: 53.55%
 Training Loss: 1.4140
 Testing Loss: 1.5644
 
-![Uploading training_testing_metrics.png…](figures/LSTM_loss.png)
+![Uploading training_testing_metrics.png…](figures/RNN_loss.png)
 
 ### Vanilla_LSTM
 
@@ -59,7 +59,7 @@ Testing Accuracy: 51.38%
 Training Loss: 1.5952
 Testing Loss: 1.6645
 
-![Uploading training_testing_metrics.png…](figures/RNN_loss.png)
+![Uploading training_testing_metrics.png…](figures/LSTM_loss.png)
 
 ## Analysis and Discussion
 When checking the experimental results, it can be seen that RNN shows better performance on the Shakespeare dataset. So, we want to perform generate.py with the weights learned with RNN.

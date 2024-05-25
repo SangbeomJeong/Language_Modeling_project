@@ -21,7 +21,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py
 CUDA_VISIBLE_DEVICES=0 python generate.py
 ```
 
-# Model Implementations and Parameter Calculations
+# Model Implementations
 * For both models, the **hidden size was used as 128, num_layer was set to 4, and the output size was made the same as the input size**.
 ## Vanilla_RNN:
 
@@ -45,18 +45,23 @@ Layer3 : FC layer(hidden_size, output_size)
 ## Model Performance Summary
 ### Vanilla_RNN
 
-Training Accuracy: 55.24%
-Testing Accuracy: 52.28%
-Training Loss: 1.4772
-Testing Loss: 1.5904
+Training Accuracy: 56.91%
+Testing Accuracy: 53.55%
+Training Loss: 1.4140
+Testing Loss: 1.5644
 
-![Uploading training_testing_metrics.png…](figures/LeNet5_train_test_result.png)
+![Uploading training_testing_metrics.png…](figures/LSTM_loss.png)
 
 ### Vanilla_LSTM
 
-Training Accuracy: 55.81%
-Testing Accuracy: 52.95%
-Training Loss: 1.4578
-Testing Loss: 1.5708
+Training Accuracy: 52.82%
+Testing Accuracy: 51.38%
+Training Loss: 1.5952
+Testing Loss: 1.6645
 
-![Uploading training_testing_metrics.png…](figures/customMLP_train_test_result.png)
+![Uploading training_testing_metrics.png…](figures/RNN_loss.png)
+
+## Analysis and Discussion
+
+
+
